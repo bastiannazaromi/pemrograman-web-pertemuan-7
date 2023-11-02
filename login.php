@@ -3,7 +3,7 @@
 session_start();
 
 if (isset($_SESSION['log_user'])) {
-	header('location: dashboard.php');
+	header('location: index.php');
 }
 
 ?>
